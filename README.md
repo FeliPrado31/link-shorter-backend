@@ -58,14 +58,11 @@ El proyecto sigue la siguiente estructura de directorios:
 ## 🛠️ Instalación y Ejecución
 
 1. **Clonar el Repositorio**:
+
    ```bash
-   git clone https://github.com/tu-usuario/acortador-de-enlaces.git
-   cd acortador-de-enlaces
+   git clone https://github.com/FeliPrado31/link-shorter-backend
+   cd link-shorter-backend
    ```
-
-```
-
-```
 
 2. **Instalar Dependencias**:
 
