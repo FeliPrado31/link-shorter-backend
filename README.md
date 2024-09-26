@@ -12,13 +12,11 @@ El acortador de enlaces permite a los usuarios acortar URLs largas en URLs corta
 - **Redireccionamiento**: Redirige automáticamente a la URL original cuando se accede a la URL corta.
 - **Listar URLs**: Permite ver todas las URLs acortadas.
 
-¡Claro! Aquí tienes la estructura del proyecto organizada en cascada con emojis para resaltar las carpetas y archivos:
-
-```markdown
 ## 📂 Estructura del Proyecto
 
 El proyecto sigue la siguiente estructura de directorios:
 
+```markdown
 /src 📁
 ├── /application 📁
 │ └── /use-cases 📁
@@ -111,7 +109,3 @@ Este proyecto está bajo la Licencia GNU General Public License (GPL) versión 3
 ¡Gracias por tu interés en este proyecto! Si tienes alguna pregunta o sugerencia, no dudes en abrir un issue o contactarme directamente.
 
 Happy coding! 🚀
-
-```
-
-```
