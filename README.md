@@ -18,7 +18,6 @@ El acortador de enlaces permite a los usuarios acortar URLs largas en URLs corta
 ## 📂 Estructura del Proyecto
 
 El proyecto sigue la siguiente estructura de directorios:
-```
 
 /src 📁
 ├── /application 📁
@@ -47,8 +46,7 @@ El proyecto sigue la siguiente estructura de directorios:
 └── /interfaces 📁
 └── /rest 📁
 └── LinkRouter.ts 📄
-
-````
+```
 
 ### Descripción de las Carpetas
 
@@ -63,9 +61,11 @@ El proyecto sigue la siguiente estructura de directorios:
    ```bash
    git clone https://github.com/tu-usuario/acortador-de-enlaces.git
    cd acortador-de-enlaces
-````
+   ```
 
-````
+```
+
+```
 
 2. **Instalar Dependencias**:
 
@@ -115,4 +115,6 @@ Este proyecto está bajo la Licencia GNU General Public License (GPL) versión 3
 
 Happy coding! 🚀
 
-````
+```
+
+```
