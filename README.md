@@ -12,40 +12,43 @@ El acortador de enlaces permite a los usuarios acortar URLs largas en URLs corta
 - **Redireccionamiento**: Redirige automáticamente a la URL original cuando se accede a la URL corta.
 - **Listar URLs**: Permite ver todas las URLs acortadas.
 
+¡Claro! Aquí tienes la estructura del proyecto organizada en cascada con emojis para resaltar las carpetas y archivos:
+
+```markdown
 ## 📂 Estructura del Proyecto
 
 El proyecto sigue la siguiente estructura de directorios:
-
 ```
-/src
-/application
-/use-cases
-CreateLinkUseCase.ts
-FindLinkByIdUseCase.ts
-GetAllLinksUseCase.ts
-/domain
-/entities
-Link.ts
-/value-objects
-Id.ts
-OriginalUrl.ts
-ShortUrl.ts
-ShortUrlGenerator.ts
-/repositories
-ILinkRepository.ts
-/infrastructure
-/controllers
-LinkController.ts
-/repositories
-InMemoryLinkRepository.ts
-/services
-LinkService.ts
-app.ts
-/interfaces
-/rest
-LinkRouter.ts
 
-```
+/src 📁
+├── /application 📁
+│ └── /use-cases 📁
+│ ├── CreateLinkUseCase.ts 📄
+│ ├── FindLinkByIdUseCase.ts 📄
+│ └── GetAllLinksUseCase.ts 📄
+├── /domain 📁
+│ ├── /entities 📁
+│ │ └── Link.ts 📄
+│ ├── /value-objects 📁
+│ │ ├── Id.ts 📄
+│ │ ├── OriginalUrl.ts 📄
+│ │ ├── ShortUrl.ts 📄
+│ │ └── ShortUrlGenerator.ts 📄
+│ └── /repositories 📁
+│ └── ILinkRepository.ts 📄
+├── /infrastructure 📁
+│ ├── /controllers 📁
+│ │ └── LinkController.ts 📄
+│ ├── /repositories 📁
+│ │ └── InMemoryLinkRepository.ts 📄
+│ ├── /services 📁
+│ │ └── LinkService.ts 📄
+│ └── app.ts 📄
+└── /interfaces 📁
+└── /rest 📁
+└── LinkRouter.ts 📄
+
+````
 
 ### Descripción de las Carpetas
 
@@ -60,7 +63,7 @@ LinkRouter.ts
    ```bash
    git clone https://github.com/tu-usuario/acortador-de-enlaces.git
    cd acortador-de-enlaces
-   ```
+````
 
 ````
 
